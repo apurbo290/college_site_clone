@@ -1,0 +1,173 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-image: url(JISCE_Campus.jpg);
+    background-size: 100%;
+    /* background-position: center; */
+    font-family: sans-serif;
+}
+
+
+
+.header
+{
+    background: rgb(40, 97, 204);
+    text-align: center;
+    width: 100%
+}
+.header ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+}
+.header ul li
+{
+    width: 150px;
+    margin: 1px;
+    padding: 10px;
+    bottom: 0;
+}
+
+
+
+.header-next
+{
+    background: #fff;
+    text-align: center;
+    width: 100%
+}
+.header-next ul
+{
+    /* display: inline-flex;
+    list-style: none;
+    color: rgb(40, 97, 204);
+    font-weight: bolder; */
+    /* font-size: 15px; */
+    word-spacing: 1000px;
+}
+/* .header-next ul li
+{
+    width: 500px;
+    margin: 5px;
+    padding: 20px;
+} */
+
+
+
+
+.menu-bar
+{
+    background: rgb(40, 97, 204);
+    text-align: center;
+    width: 100%
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 220px;
+    margin: 5px;
+    padding: 13px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background:rgb(40, 97, 204);
+    /* border-radius: 1px; */
+}
+
+
+
+
+
+
+
+
+
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(40, 97, 204);
+    margin-top: 15px;
+    margin-bottom: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150x;
+    padding: 10px;
+    border-bottom: 1px double;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: grey;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:rgb(8, 20, 41);
+}
+
+
+
+
+
+
+.footer1
+{
+    position: fixed;
+    background: rgb(231, 136, 27);
+    /* text-align: center; */
+    bottom: 0;
+    width: 100%;
+    /* display: none; */
+}
+.footer1 ul
+{
+    /* display: inline-flex; */
+    /* list-style: none; */
+    color: #fff;
+    font-size: 20px;
+    /* word-spacing: 50px; */
+}
+.footer1 ul li
+{
+    /* width: 100%; */
+    /* margin: 1px; */
+    padding: 10px;
+}
+#grab{
+    text-align: left;
+}
+#more{
+    text-align: right;
+}
